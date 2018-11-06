@@ -24,4 +24,16 @@ setup(
     author_email='aiden.egf.arnold@gmail.com',
     license='MIT',
     packages=['titanic'],
+    install_requires=[
+        'pypandoc>=1.4',
+        'watermark>=1.5.0',
+        'pandas>=0.20.3',
+        'scikit-learn>=0.19.0',
+        'scipy>=0.19.1',
+        'matplotlib>=2.1.0',
+        'pytest>=3.2.3',
+        'pytest-runner>=2.12.1'
+    ],
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest']
 )
