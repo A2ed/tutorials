@@ -13,6 +13,7 @@ bumpversion==0.5.3
 certifi==2018.10.15
 cffi==1.11.5
 chardet==3.0.4
+click==6.7
 clyent==1.2.2
 colorlover==0.2.1
 conda==4.5.11
@@ -105,7 +106,8 @@ pyOpenSSL==18.0.0
 pypandoc==1.4
 pyparsing==2.2.2
 PySocks==1.6.8
-pytest==3.9.1
+pytest==3.2.3
+pytest-runner==2.12.1
 python-dateutil==2.7.3
 pytz==2018.5
 PyYAML==3.13
@@ -142,6 +144,7 @@ traitlets==4.3.2
 typing==3.6.4
 ujson==1.35
 urllib3==1.23
+watermark==1.7.0
 wcwidth==0.1.7
 webencodings==0.5.1
 Werkzeug==0.14.1
